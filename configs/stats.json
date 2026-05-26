@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-26T15:43:51Z",
-  "total_checked": 21,
-  "working": 19,
-  "failed": 2,
+  "last_updated": "2026-05-26T20:13:17Z",
+  "total_checked": 20,
+  "working": 20,
+  "failed": 0,
   "parse_errors": 0,
-  "elapsed_seconds": 10.0
+  "elapsed_seconds": 0.3
 }
