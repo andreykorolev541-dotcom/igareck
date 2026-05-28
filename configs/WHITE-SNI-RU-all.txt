@@ -1,9 +1,8 @@
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # profile-update-interval: 1
-# Date/Time: 2026-05-27 / 22:47 (Moscow)
-# Количество: 3
+# Date/Time: 2026-05-28 / 06:16 (Moscow)
+# Количество: 2
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
-vless://91a3f712-c4e0-42a0-9475-bdd551a06e73@159.194.239.37:443?type=xhttp&headerType=none&security=reality&encryption=none&sni=ads.x5.ru&fp=chrome&pbk=AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs&sid=2da46294d6a521b2&path=/api/v3/f29479507adb&host=ads.x5.ru#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%5BSNI-RU%5D%20ads.x5.ru
-vless://91a3f712-c4e0-42a0-9475-bdd551a06e73@155.212.146.195:443?type=xhttp&security=reality&path=/api/v3/f29479507adb&sni=ads.x5.ru&fp=chrome&pbk=AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs&sid=2da46294d6a521B2#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20ads.x5.ru
-vless://83f7aa17-37b7-42b8-a265-d5528dd2705f@85.192.42.234:1021?fp=chrome&pbk=adI4uGaYC3zGQJmMqQND7yiUpARLpKn0gzLlHDSH9UU&security=reality&sid=a9d1a34fceee7440&sni=yandex.ru&type=tcp#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B9%20%F0%9F%87%AC%F0%9F%87%A7%20%5BSNI-RU%5D%20yandex.ru
+vless://86e1cbab-329e-48ca-a213-71745655886f@72.56.4.94:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.gosuslugi.ru&fp=chrome&security=reality&pbk=ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg&sid=23637807#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20www.gosuslugi.ru
+trojan://lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths@64.74.163.118:58536?allowInsecure=1&headerType=none&insecure=1&security=tls&type=tcp&sni=eh.vk.com#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%5BSNI-RU%5D%20eh.vk.com
