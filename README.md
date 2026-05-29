@@ -1,13 +1,11 @@
-# VPN Config Checker
+# Whitelist Updater
 
-Автоматически проверяет работоспособность VLESS-конфигураций и скачивает белые списки. Каждые 6 часов GitHub Actions запускает проверку — нерабочие конфиги отсеиваются, результат коммитится в репозиторий.
+Автоматически скачивает белые списки из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia). Каждые 6 часов GitHub Actions обновляет файлы и коммитит результат в репозиторий.
 
 ## 🔗 Подписки
 
 | Описание | Ссылка |
 |---|---|
-| ✅ Рабочие VLESS (base64-подписка) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/working_sub.txt` |
-| ✅ Рабочие VLESS (plain text) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/working.txt` |
 | 🏳️ Белый список CIDR (проверенный) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-CIDR-RU-checked.txt` |
 | 🏳️ Белый список CIDR (полный) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-CIDR-RU-all.txt` |
 | 🏳️ Белый список SNI | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-SNI-RU-all.txt` |
@@ -21,16 +19,9 @@
 
 ## 📌 Источник данных
 
-Конфигурации берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia), проходят проверку TCP/TLS-соединения и только рабочие попадают в итоговый список.
+Белые списки берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) и сохраняются без проверки.
 
-## 🔍 Как работает проверка
+## 🔍 Как работает обновление
 
-- Скачиваются VLESS-конфиги из источника
-- Каждый конфиг проверяется реальным подключением (TCP + TLS, до 50 потоков)
-- Нерабочие отсеиваются
-- Результат сохраняется в `configs/` и коммитится в репозиторий
-- Белые списки CIDR и SNI скачиваются без проверки и обновляются синхронно
-
-## 📊 Статистика последнего запуска
-
-Доступна в [`configs/stats.json`](configs/stats.json)
+- Белые списки CIDR и SNI скачиваются из источника
+- Файлы сохраняются в `configs/` и коммитятся в репозиторий
