@@ -3,9 +3,11 @@ import urllib.request
 import os
 
 WHITELIST_SOURCE_URLS = {
-    "WHITE-CIDR-RU-all.txt":     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-    "WHITE-CIDR-RU-checked.txt": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
-    "WHITE-SNI-RU-all.txt":      "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt",
+    "WHITE-CIDR-RU-all.txt":               "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
+    "WHITE-CIDR-RU-checked.txt":           "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
+    "WHITE-SNI-RU-all.txt":                "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt",
+    "Vless-Reality-White-Lists-Rus-Mobile.txt":   "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+    "Vless-Reality-White-Lists-Rus-Mobile-2.txt": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
 }
 
 OUTPUT_DIR = "configs"
