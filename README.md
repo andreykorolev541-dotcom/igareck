@@ -1,11 +1,13 @@
 # Whitelist Updater
 
-Автоматически скачивает белые списки из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia). Каждые 6 часов GitHub Actions обновляет файлы и коммитит результат в репозиторий.
+Автоматически скачивает белые списки и VLESS-конфиги из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia). Каждые 6 часов GitHub Actions обновляет файлы и коммитит результат в репозиторий.
 
 ## 🔗 Подписки
 
 | Описание | Ссылка |
 |---|---|
+| 📱 VLESS / Белые Списки для телефона (1) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/Vless-Reality-White-Lists-Rus-Mobile.txt` |
+| 📱 VLESS / Белые Списки для телефона (2) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/Vless-Reality-White-Lists-Rus-Mobile-2.txt` |
 | 🏳️ Белый список CIDR (проверенный) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-CIDR-RU-checked.txt` |
 | 🏳️ Белый список CIDR (полный) | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-CIDR-RU-all.txt` |
 | 🏳️ Белый список SNI | `https://raw.githubusercontent.com/Rageru01/igareck/main/configs/WHITE-SNI-RU-all.txt` |
@@ -19,9 +21,9 @@
 
 ## 📌 Источник данных
 
-Белые списки берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) и сохраняются без проверки.
+Файлы берутся из репозитория [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia) и сохраняются без проверки.
 
 ## 🔍 Как работает обновление
 
-- Белые списки CIDR и SNI скачиваются из источника
-- Файлы сохраняются в `configs/` и коммитятся в репозиторий
+- Все файлы скачиваются из источника как есть
+- Сохраняются в `configs/` и коммитятся в репозиторий
