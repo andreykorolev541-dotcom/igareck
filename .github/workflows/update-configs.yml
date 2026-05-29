@@ -2,8 +2,8 @@ name: Update Working Configs
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # каждые 6 часов
-  workflow_dispatch:          # ручной запуск из GitHub UI
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -33,7 +33,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            STATS=$(python -c "import json; d=json.load(open('configs/stats.json')); print(f\"working={d['working']}, checked={d['total_checked']}\")")
-            git commit -m "chore: auto-update configs [$STATS] $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "chore: auto-update configs $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
